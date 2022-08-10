@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+    background: linear-gradient(68.15deg, #2b6f74 16.62%, #44fcfc 85.61% );
+   
+}
+
+div#interface{
+    width: 800px;
+    margin: 10px 10px 10px 10px ;
+    background: #000000;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;  
+    align-items: center; 
+    justify-content: space-around;
+    padding: 2px;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    margin: 0 auto 0 auto;
+}
+
+
+.cabecalho:hover{
+    background-color: rgba(226, 88, 88, 0.6);
+}
+
+.rodape:hover{
+    background-color: rgba(226, 88, 88, 0.6);
+}
+
+.cabecalho-imagem{
+    height: 70px; 
+}
+
+.cabecalho-menu{
+    display:inline-flex;
+    gap: 60px;   
+}
+
+.cabecalho-menu-item{
+    font-family: cursive;
+    color: #000;
+    font-weight: 300;
+    font-size: 20px; 
+}
+
+.conteudo{
+    margin-bottom: 100px;
+    border-top: 0.4px solid #000000;
+    justify-content: space-evenly;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+   }
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 70px;
+    color: #000;
+    position: absolute;
+    right: 150px;
+}
+
+
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 50px;
+    color: #000;
+    position: absolute;
+    top: -30px; 
+    left: 15px;
+}
+
+
+.conteudo-principal-escrito-botao{
+    background-color: #2b6f74;
+    width: 180px;
+    height: 60px;
+    box-shadow:#050505;
+    border: none;
+    border-radius: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff2e7;
+    right: 220px;
+    top: -50px;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(226, 88, 88, 0.6);
+}
+
+.conteudo-principal-imagem{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    gap: 24px;
+    margin-top: 100px; 
+    justify-content: space-around;
+}
+
+.conteudo-secundario-titulo{
+    padding-top: 70px;
+    font-family: cursive;
+    font-weight: 4000;
+    font-size: 60px;
+    color: #000000;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+.rodape{
+    padding: 0px;
+    border-top: 3px solid #000;
+    width: 100%;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+}
+
+.rodape-imagem{
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/*Login*/
+
+.login{
+    font-family: cursive;
+    position: relative;
+    left: 50%;
+    padding: 50px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    text-align: center;
+}
+
+.login h2{
+    margin: 0 0 70px;
+    padding: 0px;
+    color: #000;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-caixa input{
+    background: transparent;  
+    border: none;  
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
